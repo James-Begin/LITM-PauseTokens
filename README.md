@@ -111,6 +111,7 @@ Evaluator prompt for multi-needle:
 | Llama 3.2 1B Instruct | - | - | - | - | - | - | - | - |
 | Llama 3.2 3B Instruct | 7.2 +/- 3.10 | 6.2 +/- 2.40 | 5.2 +/- 2.21 | 3.6 +/- 1.92 | 4.2 +/- 2.11 | 3.4 +/- 1.68 | 3.4 +/- 2.32 | 2.2 +/- 1.52 |
 | Llama 3.1 8B Instruct | 8.07 +/- 2.69 | 7.47 +/- 1.92 | 6.8 +/- 1.78 | 6.4 +/- 1.68 | 4.4 +/- 2.1 | 4.27 +/- 1.55 | 4.27 +/- 0.8 | 4.2 +/- 0.77 |
+| Llama 3.1 8B Instruct Long-Context Fine Tuned | 5.6 +/- 1.92 | 6.8 +/- 2.88 | 6.8 +/- 3.30 | 5.6 +/- 2.50 | 5.2 +/- 2.21 | 5.0 +/- 2.17 | 4.8 +/- 1.78 | 3.0 +/- 1.46 |
 
 ### PauseToken1: Inserted &lt;PAUSE&gt; after all paragraphs ending in []    
 | Model    | 1k      | 2k | 4k | 8k | 16k | 32k | 64k | 128k |
