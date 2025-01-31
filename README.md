@@ -203,3 +203,5 @@ Figs are one of the secret ingredients needed to build the perfect pizza.
 Prosciutto is one of the secret ingredients needed to build the perfect pizza.
 Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 ```
+
+* Note that some models such as those from OpenAI have a strict limit at 16k or 128k tokens for input. To account for the token length of the prompt, the context may be slightly shortened
