@@ -41,11 +41,11 @@ Evaluator prompt for multi-needle:
 ### PauseToken1 + Single Shot Prompt: Inserted &lt;PAUSE&gt; after all paragraphs ending in []  and added prompt: "When You read &lt;PAUSE&gt; in the context, stop and absorb the information you have previously read."  
 | Model    | 1k      | 2k | 4k | 8k | 16k | 32k | 64k | 128k |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| GPT 3.5 Turbo 0125 |10 | 10 | 10 | 10 | 9.44 | NA | NA | NA |
-| GPT 4o mini 2024-07-18  | 10 | 10 | 10 | 10 | 10 | 10 | 9.71 | 9.62 |
-| Llama 3.2 1B Instruct | 7.24 | 7.62 | 5.95 | 3.73 | 1.76 | 1.69 | 1 | 1 |
-| Llama 3.2 3B Instruct | 9.8 | 9.93 | 10 | 9.58 | 6.02 | 5.84 | 4.47 | 3.27 |
-| Llama 3.1 8B Instruct | 10 | 10 | 9.8 | 9.8 | 9.6 | 9.2 | 8.84 | 7.153 |
+| GPT 3.5 Turbo 0125 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 9.44 +/- 0.08 | NA | NA | NA |
+| GPT 4o mini 2024-07-18  | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 9.71 +/- 0.08 | 9.62 +/- 0.08 |
+| Llama 3.2 1B Instruct | 7.24 +/- 0.60 | 7.62 +/- 0.73 | 5.95 +/- 2.31 | 3.73 +/- 0.61 | 1.76 +/- 0.33 | 1.69 +/- 0.31 | 1 +/- 0 | 1 +/- 0 |
+| Llama 3.2 3B Instruct | 9.8 +/- 0.35 | 9.93 +/- 0.12 | 10 +/- 0 | 9.58 +/- 0.40 | 6.02 +/- 2.24 | 5.84 +/- 0.77 | 4.47 +/- 1.30 | 3.27 +/- 1.01 |
+| Llama 3.1 8B Instruct | 10 +/- 0 | 10 +/- 0 | 9.8 +/- 0.35 | 9.8 +/- 0.35 | 9.6 +/- 0.35 | 9.2 +/- 0.69 | 8.84 +/- 0.53 | 7.153 +/- 0.08 |
 
 
 ### PauseToken1: % improvement over baseline (Non-fine-tuned % Change: +4.21%) (Fine-Tuned % Change: +12.53%)    
