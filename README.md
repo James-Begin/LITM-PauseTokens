@@ -21,13 +21,13 @@ Evaluator prompt for multi-needle:
 ### PauseToken1: Inserted &lt;PAUSE&gt; after all paragraphs ending in []    
 | Model    | 1k      | 2k | 4k | 8k | 16k | 32k | 64k | 128k |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| GPT 3.5 Turbo 0125 | 10 | 10 | 10 | 10 | 9.44 | NA | NA | NA |
-| GPT 4o mini 2024-07-18  | 10 | 10 | 10 | 10 | 10 | 10 | 9.71 | 9.47 |
-| Llama 3.2 1B Instruct | 7.75 | 6.31 | 4.13 | 4 | 2 | 1.4 | 1 | 1 |
-| Llama 3.2 3B Instruct | 10 | 9.93 | 9.67 | 9.62 | 6.51 | 5.24 | 5.6 | 5.64 |
-| Llama 3.1 8B Instruct | 10 | 10 | 9.7 | 10 | 9.6 | 8.82 | 8.4 | 7.15 |
-| Llama 3.2 3B Instruct Pause-Tuned | 10 | 9.93 | 9.87 | 9.29 | 7.91 | 6.29 | 5.89 | 4.56 |
-| Llama 3.1 8B Instruct Pause-Tuned | 10 | 10 | 10 | 10 | 10 | 9.44 | 9.16 | 7.98 |
+| GPT 3.5 Turbo 0125 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 9.44 +/- 0.23 | NA | NA | NA |
+| GPT 4o mini 2024-07-18  | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0| 10 +/- 0 | 9.71 +/-0.08 | 9.47 +/- 0 |
+| Llama 3.2 1B Instruct | 7.75 +/- 0.47 | 6.31 +/- 0.33 | 4.13 +/- 0.28 | 4 +/- 1.37 | 2 +/- 0.28| 1.4 +/- 0.85 | 1 +/- 0 | 1 +/- 0 |
+| Llama 3.2 3B Instruct | 10 +/- 0 | 9.93 +/- 0.12 | 9.67 +/- 0.23 | 9.62 +/- 0.33 | 6.51 +/- 1.81 | 5.24 +/- 0.45 | 5.6 +/- 0.35 | 5.64 +/- 0.48 |
+| Llama 3.1 8B Instruct | 10 +/- 0 | 10 +/- 0 | 9.7 +/- 0.35 | 10 +/- 0 | 9.6 +/- 0.35 | 8.82 +/- 0.86 | 8.4 +/- 1.51 | 7.15 +/- 0.68 |
+| Llama 3.2 3B Instruct Pause-Tuned | 10 +/- 0 | 9.93 +/- 0.12 | 9.87 +/- 0.23 | 9.29 +/- 0.54 | 7.91 +/- 1.64 | 6.29 +/- 1.74 | 5.89 +/- 1.37 | 4.56 +/- 0.42 |
+| Llama 3.1 8B Instruct Pause-Tuned | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 10 +/- 0 | 9.44 +/- 0.53 | 9.16 +/- 0.27 | 7.98 +/- 0.37 |
 
 ### PauseToken2: Inserted &lt;PAUSE Stop and absorb the information you have just read&gt; after all paragraphs ending in []     
 | Model    | 1k      | 2k | 4k | 8k | 16k | 32k | 64k | 128k |
