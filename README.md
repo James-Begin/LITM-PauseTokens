@@ -1,12 +1,6 @@
 \# LITM-PauseTokens
 
-Evaluator prompt for multi-needle:  
-"""  
-                    Score 1: The answer contains none of the referenced ingredients.  
-                    Score 4: The answer contains exactly 1 of the 3 referenced ingredients.  
-                    Score 7: The answer contains exactly 2 of the 3 referenced ingredients.  
-                    Score 10: The answer contains all 3 of the referenced ingredients.  
-                    Only respond with a numerical score"""  
+ 
 
 
 ### Baseline Results  
@@ -172,3 +166,40 @@ Evaluator prompt for multi-needle:
 | Llama 3.2 3B Instruct | 0 | 12.90 | 15.38 | 22.22 | 9.52 | 17.65 | 23.53 | 36.36 | 17.20 |
 | Llama 3.1 8B Instruct | 1.61 | -0.94 | 11.76 | 10.47 | 65.23 | 68.62 | 63.93 | 25.48 | 30.77 |
 
+Evaluator prompt for multi-needle:  
+```  
+Score 1: The answer contains none of the referenced ingredients.  
+Score 4: The answer contains exactly 1 of the 3 referenced ingredients.  
+Score 7: The answer contains exactly 2 of the 3 referenced ingredients.  
+Score 10: The answer contains all 3 of the referenced ingredients.  
+Only respond with a numerical score
+```
+
+Evaluator prompt for single needle:  
+```  
+Score 1: The answer is completely unrelated to the reference.
+Score 3: The answer has minor relevance but does not align with the reference.
+Score 5: The answer has moderate relevance but contains inaccuracies.
+Score 7: The answer aligns with the reference but has minor omissions.
+Score 10: The answer is completely accurate and aligns perfectly with the reference.
+Only respond with a numberical score
+```
+
+Single Needle Question:  
+```
+What is the best thing to do in San Francisco?
+```
+Single Needle:  
+```
+The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
+```
+Multi Needle Question:  
+```
+What are the secret ingredients needed to build the perfect pizza?
+```
+Multi Needle:  
+```
+Figs are one of the secret ingredients needed to build the perfect pizza.
+Prosciutto is one of the secret ingredients needed to build the perfect pizza.
+Goat cheese is one of the secret ingredients needed to build the perfect pizza.
+```
