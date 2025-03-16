@@ -205,3 +205,37 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 ```
 
 * Note that some models such as those from OpenAI have a strict limit at 16k or 128k tokens for input. To account for the token length of the prompt, the context may be slightly shortened
+
+# LongBench V2 Results
+
+### Baseline
+| Model    | Overall      | Easy | Hard | Short | Medium | Long |
+| --- | --- | --- | --- | --- | --- | --- |
+| GPT 3.5 Turbo 0125 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GPT 4o mini 2024-07-18  | 0 | 0 | 0 | 0 | 0 | 0 |
+| Llama 3.2 1B Instruct | 22.9 | 20.3 | 24.4 | 26.7 | 20.0 | 22.2 |
+| Llama 3.2 3B Instruct | 26.4 | 25.0 | 27.3 | 27.8 | 23.3 | 30.6 |
+| Llama 3.1 8B Instruct | 28.2 | 29.7 | 27.3 | 34.4 | 26.0 | 22.2 |
+
+### PauseToken 1
+| Model    | Overall      | Easy | Hard | Short | Medium | Long |
+| --- | --- | --- | --- | --- | --- | --- |
+| GPT 3.5 Turbo 0125 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GPT 4o mini 2024-07-18  | 0 | 0 | 0 | 0 | 0 | 0 |
+| Llama 3.2 1B Instruct | 23.1 | 21.4 | 24.1 | 26.7 | 18.6 | 25.9 |
+| Llama 3.2 3B Instruct | 27.8 | 25.5 | 29.3 | 28.3 | 24.7 | 33.3 |
+| Llama 3.1 8B Instruct | 29.2 | 32.8 | 27.0 | 37.8 | 25.1 | 23.1 |
+| Llama 3.2 3B Pause-Tuned | 28.0 | 26.0 | 29.3 | 28.9 | 24.2 | 34.3|
+| Llama 3.1 8B Pause-Tuned | 29.8 | 34.9 | 26.7 | 37.2 | 27.0 | 23.1|
+
+### PauseToken 2
+| Model    | Overall      | Easy | Hard | Short | Medium | Long |
+| --- | --- | --- | --- | --- | --- | --- |
+| GPT 3.5 Turbo 0125 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GPT 4o mini 2024-07-18  | 0 | 0 | 0 | 0 | 0 | 0 |
+| Llama 3.2 1B Instruct | 22.9 | 19.8 | 24.8 | 27.2 | 19.1 | 23.1 |
+| Llama 3.2 3B Instruct | 25.0 | 21.4 | 27.3 | 26.7 | 20.5 | 31.5 |
+| Llama 3.1 8B Instruct | 29.6 | 32.8 | 27.7 | 36.1 | 26.0 | 25.9 |
+
+
+
