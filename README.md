@@ -216,7 +216,7 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Llama 3.2 1B Instruct | 22.9 | 20.3 | 24.4 | 26.7 | 20.0 | 22.2 |
 | Llama 3.2 3B Instruct | 26.4 | 25.0 | 27.3 | 27.8 | 23.3 | 30.6 |
 | Llama 3.1 8B Instruct | 28.2 | 29.7 | 27.3 | 34.4 | 26.0 | 22.2 |
-| Phi 4 mini instruct | 26.8 | 27.6 | 26.4 | 31.1 | 21.9 | 29.6 |
+| Phi 4 mini instruct | 28.2 | 27.1 | 28.9 | 32.2 | 23.3 | 31.5 |
 | Phi 4 instruct | 27.8 | 27.6 | 28.0 | 30.6 | 22.8 | 33.3 |
 | gemma 3 12B instruct | 29.2 | 27.6 | 30.2 | 34.4 | 26.0 | 26.9 |
 
@@ -230,7 +230,7 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Llama 3.1 8B Instruct | 29.2 | 32.8 | 27.0 | 37.8 | 25.1 | 23.1 |
 | Llama 3.2 3B Pause-Tuned | 28.0 | 26.0 | 29.3 | 28.9 | 24.2 | 34.3|
 | Llama 3.1 8B Pause-Tuned | 29.8 | 34.9 | 26.7 | 37.2 | 27.0 | 23.1|
-| Phi 4 mini instruct | 28.6 | 25.5 | 30.5 | 33.9 | 24.2 | 31.4 |
+| Phi 4 mini instruct | 28.0 | 27.6 | 28.3 | 31.1 | 23.7 | 31.5 |
 | Phi 4 instruct | 28.6 | 27.6 | 29.3 | 33.3 | 23.3 | 34.9 |
 | gemmma 3 12B instruct | 31.6 | 30.7 | 32.2 | 35.6 | 29.3 | 29.6 |
 
@@ -242,7 +242,7 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Llama 3.2 1B Instruct | 22.9 | 19.8 | 24.8 | 27.2 | 19.1 | 23.1 |
 | Llama 3.2 3B Instruct | 25.0 | 21.4 | 27.3 | 26.7 | 20.5 | 31.5 |
 | Llama 3.1 8B Instruct | 29.6 | 32.8 | 27.7 | 36.1 | 26.0 | 25.9 |
-| Phi 4 mini instruct | 26.4 | 27.6 | 25.7 | 31.1 | 22.3 | 26.9 |
+| Phi 4 mini instruct | 27.2 | 27.6 | 27.0 | 33.3 | 22.8 | 25.9 |
 | Phi 4 instruct | 26.4 | 27.6 | 25.7 | 31.1 | 22.3 | 26.9 |
 | gemma 3 12b instruct | 30.2 | 27.6 | 31.8 | 35.6 | 28.8 | 24.1 |
 
