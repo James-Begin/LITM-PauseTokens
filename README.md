@@ -212,7 +212,7 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Model    | Overall      | Easy | Hard | Short | Medium | Long |
 | --- | --- | --- | --- | --- | --- | --- |
 | GPT 3.5 Turbo 0125 | 30.3 | 31.9 | 29.3 | 33.6 | 27.9 | 29.2 |
-| GPT 4o mini 2024-07-18  | 29.7 | 33.1 | 27.6 | 32.8 | 27.2 | 26.4 |
+| GPT 4o mini 2024-07-18  | 29.3 | 31.1 | 28.2 | 31.8 | 28.6 | 26.2 |
 | Llama 3.2 1B Instruct | 22.9 | 20.3 | 24.4 | 26.7 | 20.0 | 22.2 |
 | Llama 3.2 3B Instruct | 26.4 | 25.0 | 27.3 | 27.8 | 23.3 | 30.6 |
 | Llama 3.1 8B Instruct | 28.2 | 29.7 | 27.3 | 34.4 | 26.0 | 22.2 |
@@ -224,7 +224,7 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Model    | Overall      | Easy | Hard | Short | Medium | Long |
 | --- | --- | --- | --- | --- | --- | --- |
 | GPT 3.5 Turbo 0125 | 28.5 | 31.2 | 26.8 | 30.8 | 27.1 | 26.8 |
-| GPT 4o mini 2024-07-18  | 28.9 | 30.7 | 27.8 | 32.9 | 27.8 | 27.8 |
+| GPT 4o mini 2024-07-18  | 30.2 | 34.6 | 27.5 | 31.8 | 28.7 | 30.4 |
 | Llama 3.2 1B Instruct | 23.1 | 21.4 | 24.1 | 26.7 | 18.6 | 25.9 |
 | Llama 3.2 3B Instruct | 27.8 | 25.5 | 29.3 | 28.3 | 24.7 | 33.3 |
 | Llama 3.1 8B Instruct | 29.2 | 32.8 | 27.0 | 37.8 | 25.1 | 23.1 |
