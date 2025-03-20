@@ -211,19 +211,17 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 ### Baseline
 | Model    | Overall      | Easy | Hard | Short | Medium | Long |
 | --- | --- | --- | --- | --- | --- | --- |
-| GPT 3.5 Turbo 0125 | 30.3 | 31.9 | 29.3 | 33.6 | 27.9 | 29.2 |
 | GPT 4o mini 2024-07-18  | 29.3 | 31.1 | 28.2 | 31.8 | 28.6 | 26.2 |
 | Llama 3.2 1B Instruct | 22.9 | 20.3 | 24.4 | 26.7 | 20.0 | 22.2 |
 | Llama 3.2 3B Instruct | 26.4 | 25.0 | 27.3 | 27.8 | 23.3 | 30.6 |
 | Llama 3.1 8B Instruct | 28.2 | 29.7 | 27.3 | 34.4 | 26.0 | 22.2 |
 | Phi 4 mini instruct | 28.2 | 27.1 | 28.9 | 32.2 | 23.3 | 31.5 |
-| Phi 4 instruct | 27.8 | 27.6 | 28.0 | 30.6 | 22.8 | 33.3 |
+| Phi 4 instruct | 27.4 | 27.6 | 27.3 | 31.1 | 23.7 | 28.7 |
 | gemma 3 12B instruct | 29.2 | 27.6 | 30.2 | 34.4 | 26.0 | 26.9 |
 
 ### PauseToken 1
 | Model    | Overall      | Easy | Hard | Short | Medium | Long |
 | --- | --- | --- | --- | --- | --- | --- |
-| GPT 3.5 Turbo 0125 | 28.5 | 31.2 | 26.8 | 30.8 | 27.1 | 26.8 |
 | GPT 4o mini 2024-07-18  | 30.2 | 34.6 | 27.5 | 31.8 | 28.7 | 30.4 |
 | Llama 3.2 1B Instruct | 23.1 | 21.4 | 24.1 | 26.7 | 18.6 | 25.9 |
 | Llama 3.2 3B Instruct | 27.8 | 25.5 | 29.3 | 28.3 | 24.7 | 33.3 |
@@ -231,20 +229,44 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Llama 3.2 3B Pause-Tuned | 28.0 | 26.0 | 29.3 | 28.9 | 24.2 | 34.3|
 | Llama 3.1 8B Pause-Tuned | 29.8 | 34.9 | 26.7 | 37.2 | 27.0 | 23.1|
 | Phi 4 mini instruct | 28.0 | 27.6 | 28.3 | 31.1 | 23.7 | 31.5 |
-| Phi 4 instruct | 28.6 | 27.6 | 29.3 | 33.3 | 23.3 | 34.9 |
+| Phi 4 instruct | 27.8 | 28.6 | 27.3 | 30.0 | 22.8 | 34.3 |
 | gemmma 3 12B instruct | 31.6 | 30.7 | 32.2 | 35.6 | 29.3 | 29.6 |
 
 ### PauseToken 2
 | Model    | Overall      | Easy | Hard | Short | Medium | Long |
 | --- | --- | --- | --- | --- | --- | --- |
-| GPT 3.5 Turbo 0125 | 29.3 | 31.1 | 28.2 | 32.0 | 27.8 | 27.4 |
 | GPT 4o mini 2024-07-18  | 25.2 | 24.7 | 25.5 | 28.7 | 24.4 | 20.7 |
-| Llama 3.2 1B Instruct | 22.9 | 19.8 | 24.8 | 27.2 | 19.1 | 23.1 |
+| Llama 3.2 1B Instruct | 0.87 | 19.8 | 24.8 | 27.2 | 19.1 | 23.1 |
 | Llama 3.2 3B Instruct | 25.0 | 21.4 | 27.3 | 26.7 | 20.5 | 31.5 |
 | Llama 3.1 8B Instruct | 29.6 | 32.8 | 27.7 | 36.1 | 26.0 | 25.9 |
 | Phi 4 mini instruct | 27.2 | 27.6 | 27.0 | 33.3 | 22.8 | 25.9 |
 | Phi 4 instruct | 29.0 | 27.1 | 30.2 | 33.3 | 24.2 | 31.5 |
 | gemma 3 12b instruct | 30.2 | 27.6 | 31.8 | 35.6 | 28.8 | 24.1 |
+
+### PauseToken 1 Improvement +4.42% (Pause-Tuned: +6.20%) 
+| Model    | Overall      | Easy | Hard | Short | Medium | Long | AVG |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| GPT 4o mini 2024-07-18  | 3.07 | 11.25 | -2.48 | 0 | 0.35 | 16.03 | 4.70 |
+| Llama 3.2 1B Instruct | 0.87 | 5.42 | -1.23 | 0 | -7.00 | 16.67 | 2.46 |
+| Llama 3.2 3B Instruct | 5.30 | 2.00 | 7.33 | 1.80 | 6.01 | 8.82 | 5.21 |
+| Llama 3.1 8B Instruct | 3.55 | 10.44 | -1.1 | 9.88 | -3.46 | 4.05 | 3.89 |
+| Llama 3.2 3B Pause-Tuned | 6.06 | 4.00 | 7.33 | 3.96 | 3.86 | 12.09 | 6.22 |
+| Llama 3.1 8B Pause-Tuned | 5.67 | 17.51 | -2.2 | 8.14 | 3.85 | 4.05 | 6.17 |
+| Phi 4 mini instruct | -0.71 | 1.85 | -2.08 | -3.42 | 1.72 | 0.00 | -0.44 |
+| Phi 4 instruct | 1.46 | 3.62 | 0.00 | -3.54 | -3.8 | 19.51 | 2.88 |
+| gemmma 3 12B instruct | 8.22 | 11.23 | 6.62 | 3.49 | 12.69 | 10.04 | 8.72 |
+
+### PauseToken 2 Improvement -1.47%
+| Model    | Overall      | Easy | Hard | Short | Medium | Long | AVG |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| GPT 4o mini 2024-07-18  | -13.99 | -20.58 | -9.57 | -14.69 | -20.99 | -14.93 |
+| Llama 3.2 1B Instruct | 0.00 | -2.46 | 1.64 | 1.87 | -4.50 | 4.05 | 0.10 |
+| Llama 3.2 3B Instruct | -5.30| -14.40 | 0.00 | -3.96 | -12.02 | 2.94 | -5.46 |
+| Llama 3.1 8B Instruct | 4.96 | 10.44 | 1.47 | 4.94 | 0.00 | 16.67 | 6.41 |
+| Phi 4 mini instruct | -3.55 | 1.85 | -6.57 | 3.42 | -2.15 | -17.78 | -4.13 |
+| Phi 4 instruct | 5.84 | -1.81 | 10.62 | 7.07 | 2.11 | 9.76 | 5.60 |
+| gemma 3 12b instruct | 3.42 | 0.00 | 5.30 | 3.49 | 10.77 | -10.41 | 2.09 |
+
 
 
 
