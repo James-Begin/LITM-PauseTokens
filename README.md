@@ -243,7 +243,7 @@ Goat cheese is one of the secret ingredients needed to build the perfect pizza.
 | Llama 3.2 3B Instruct | 25.0 | 21.4 | 27.3 | 26.7 | 20.5 | 31.5 |
 | Llama 3.1 8B Instruct | 29.6 | 32.8 | 27.7 | 36.1 | 26.0 | 25.9 |
 | Phi 4 mini instruct | 27.2 | 27.6 | 27.0 | 33.3 | 22.8 | 25.9 |
-| Phi 4 instruct | 26.4 | 27.6 | 25.7 | 31.1 | 22.3 | 26.9 |
+| Phi 4 instruct | 29.0 | 27.1 | 30.2 | 33.3 | 24.2 | 31.5 |
 | gemma 3 12b instruct | 30.2 | 27.6 | 31.8 | 35.6 | 28.8 | 24.1 |
 
 
