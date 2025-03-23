@@ -1,0 +1,2 @@
+Model	Overall	Easy	Hard	Short	Medium	Long
+gpt-4o-mini-2024-07-18	29.2	32.7	27.1	31.8	28.1	26.6

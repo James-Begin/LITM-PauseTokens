@@ -1,0 +1,2 @@
+Model	Overall	Easy	Hard	Short	Medium	Long
+phi-4-instruct	27.8	28.6	27.3	30.0	22.8	34.3

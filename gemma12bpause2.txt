@@ -1,0 +1,2 @@
+Model	Overall	Easy	Hard	Short	Medium	Long
+gemma-3-12b-it	30.2	27.6	31.8	35.6	28.8	24.1

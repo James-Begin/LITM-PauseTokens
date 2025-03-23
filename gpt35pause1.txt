@@ -1,0 +1,2 @@
+Model	Overall	Easy	Hard	Short	Medium	Long
+gpt-3.5-turbo-0125	28.5	31.2	26.8	30.8	27.1	26.8

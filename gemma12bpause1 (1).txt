@@ -1,0 +1,2 @@
+Model	Overall	Easy	Hard	Short	Medium	Long
+gemma12bpause1	31.6	30.7	32.2	35.6	29.3	29.6
