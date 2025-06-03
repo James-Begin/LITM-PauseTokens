@@ -1,0 +1,4 @@
+Model	Overall	Easy	Hard	Short	Medium	Long
+gpt-4.1	46.7	52.1	43.4	50.0	47.4	39.8
+gpt-4.1pause2	46.9	54.2	42.4	49.4	48.4	39.8
+gpt-4.1pause1	47.9	54.2	44.1	49.4	49.3	42.6

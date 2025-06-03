@@ -1,0 +1,16 @@
+Model	                            Domain	          Overall	Easy	Hard	Short	Medium	Long
+claude-3-5-sonnet-20241022	        Multi-Document QA	    43.8	65.0	36.7	50.0	43.3	28.6
+claude-3-5-sonnet-20241022	        Single-Document QA	    38.0	58.1	26.9	48.1	29.1	35.7
+claude-3-5-sonnet-20241022	        Long In-context Lear	38.3	46.2	32.4	50.0	34.5	38.1
+claude-3-5-sonnet-20241022	        Long-dialogue History 	16.7	23.1	9.1	    14.3	20.0	0
+claude-3-5-sonnet-20241022	        Code Repository Unders.	44.1	69.2	28.6	77.8	20.0	35.0
+claude-3-5-sonnet-20241022pause2	Long In-context Learn	37.0	34.8	39.1	55.6	36.4	26.7
+claude-3-5-sonnet-20241022pause2	Single-Document QA	    34.4	43.8	28.4	44.2	25.9	31.2
+claude-3-5-sonnet-20241022pause2	Multi-Document QA	    40.2	43.5	39.1	50.0	40.0	17.6
+claude-3-5-sonnet-20241022pause2	Long-dialogue History 	24.1	20.0	28.6	28.6	20.0	0
+claude-3-5-sonnet-20241022pause2	Code Repository Unders.	37.1	41.7	34.8	71.4	25.0	30.0
+claude-3-5-sonnet-20241022pause1	Long In-context Learn	38.0	37.1	38.6	50.0	40.5	28.0
+claude-3-5-sonnet-20241022pause1	Single-Document QA	    40.1	53.4	32.3	44.9	32.4	50.0
+claude-3-5-sonnet-20241022pause1	Multi-Document QA	    46.0	54.5	42.5	45.3	48.7	42.9
+claude-3-5-sonnet-20241022pause1	Long-dialogue History	26.3	20.0	33.3	26.3	26.3	0
+claude-3-5-sonnet-20241022pause1	Code Repository Unders.	35.6	46.7	30.0	55.6	33.3	29.6

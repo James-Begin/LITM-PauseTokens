@@ -1,0 +1,19 @@
+Model	        Domain	                          Overall	Easy	Hard	Short	Medium	Long
+gpt-4.1	        Single-Document QA	                44.6	50.0	41.4	50.0	41.6	37.5
+gpt-4.1	        Long-dialogue History Understanding	41.0	50.0	31.6	40.0	42.1	0
+gpt-4.1	        Multi-Document QA	                47.2	52.9	45.1	51.7	50.0	30.4
+gpt-4.1	        Code Repository Understanding	    48.0	55.6	43.8	58.3	55.6	41.4
+gpt-4.1	        Long In-context Learning	        56.8	63.9	51.1	58.3	55.8	57.7
+gpt-4.1	        Long Structured Data Understanding	36.4	35.0	38.5	25.0	47.8	0.0
+gpt-4.1pause2	Single-Document QA	                46.3	50.0	44.1	51.4	42.9	41.7
+gpt-4.1pause2	Long-dialogue History Understanding	41.0	50.0	31.6	45.0	36.8	0
+gpt-4.1pause2	Multi-Document QA	                42.4	55.9	37.4	46.6	45.5	26.1
+gpt-4.1pause2	Code Repository Understanding	    46.0	55.6	40.6	58.3	55.6	37.9
+gpt-4.1pause2	Long In-context Learning	        58.0	61.1	55.6	58.3	58.1	57.7
+gpt-4.1pause2	Long Structured Data Understanding	48.5	55.0	38.5	25.0	60.9	16.7
+gpt-4.1pause1	Single-Document QA	                46.3	54.7	41.4	50.0	45.5	37.5
+gpt-4.1pause1	Long-dialogue History Understanding	41.0	50.0	31.6	40.0	42.1	0
+gpt-4.1pause1	Multi-Document QA	                45.6	55.9	41.8	51.7	47.7	26.1
+gpt-4.1pause1	Code Repository Understanding	    54.0	55.6	53.1	58.3	44.4	55.2
+gpt-4.1pause1	Long In-context Learning	        56.8	58.3	55.6	50.0	58.1	57.7
+gpt-4.1pause1	Long Structured Data Understanding	42.4	45.0	38.5	25.0	56.5	0.0
